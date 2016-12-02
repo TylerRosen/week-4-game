@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<h1>Crystal Collector Game!</h1>
+
+<p>You will be given a random number at the start of the game</p>
+<br>
+<p>Click a crystal to add a specific amount of points to your total score</p>
+<br>
+<p>When your total score matches the random number, you win! If you go over, you lose!</p>
+<br>
+<p>The value of each crystal will be revealed when you click on it. Values will change each time the game starts</p>
+<br>
+<div id="Number">
+</div>
+<img id="Garnet" src="assets/images/garnet.jpg" alt="Garnet">
+<img id= "Amethyst" src="assets/images/Amethyst.jpg" alt= "Amethyst">
+<img id= "Pearl" src="assets/images/pearl.jpg" alt="Pearl">
+<img id= "Sapphire" src="assets/images/sapphire.png" alt="Sapphire">
+
+<style>
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+</style>
+
+<br>
+<br>
+<p> Wins: <span id="Wins"></span> </p>
+<br>
+<p>Losses: <span id="Losses"></span> </p>
+<br>
+<p>Total Score: <span id="Total"></span> </p>
+
+<script src="assets/javascript/game.js">
+	
+
+</script>
+
+</body>
+</html>
